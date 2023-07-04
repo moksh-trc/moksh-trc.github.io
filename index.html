@@ -1,0 +1,22 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+  <p> Chat page </p>
+      <script>
+        (function(d,t) {
+          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src="https://test.ca.digital-front-door.dev.gcp.trchq.com/embed.js"
+          s.parentNode.insertBefore(g,s);
+          g.onload=function(){
+            new window.VirtualCareMessengerEncrypted({
+              domain: 'https://test.ca.digital-front-door.dev.gcp.trchq.com',
+              ws:  'wss://test.ca.digital-front-door.dev.gcp.trchq.com/cable',
+              app_id: "XhaeaVJPLz73QUMP5LzFrTt9" || "9V6WeTk1QKUigsp1GzGoAzMJ",
+              lang: "fr",
+              mode: "fullscreen"
+            })
+          }
+        })(document,"script");
+      </script>
+</body>
